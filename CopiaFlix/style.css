@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+  
+.container {
+    text-align: center;
+    padding: 20px;
+}
+  
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+span {
+    color: rgb(184, 11, 8);
+}
+
+body > img {
+    margin: 0 10px;
+}
+  
+img {
+    max-height: 350px;
+}
+
+#listaFilmes img {
+    margin: 10px;
+    max-height: 350px;
+}
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+}
+  
+  .form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+  
+  .form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 5px 20px;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(184, 11, 8);
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
